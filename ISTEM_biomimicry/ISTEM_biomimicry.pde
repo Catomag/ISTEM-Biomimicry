@@ -28,7 +28,7 @@ static int fileIndex;
 void setup() {
   size(800, 800);
   File[] files = listFiles("/Data/");
-  //randomSeed(1);
+  randomSeed(1);
   if(files == null) {
     fileIndex = 0;
   }

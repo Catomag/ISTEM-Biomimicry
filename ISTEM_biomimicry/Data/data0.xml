@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Training_Data>
+  <Generation>
+    <AverageFitness>0.296</AverageFitness>
+    <TotalFitness>74.0</TotalFitness>
+    <BestFitness>64.0</BestFitness>
+  </Generation>
+  <Generation>
+    <AverageFitness>15.9</AverageFitness>
+    <TotalFitness>3975.0</TotalFitness>
+    <BestFitness>216.0</BestFitness>
+  </Generation>
+</Training_Data>

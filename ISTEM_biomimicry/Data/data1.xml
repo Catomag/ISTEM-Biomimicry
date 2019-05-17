@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Training_Data>
+  <Generation>
+    <AverageFitness>0.084</AverageFitness>
+    <TotalFitness>21.0</TotalFitness>
+    <BestFitness>8.0</BestFitness>
+  </Generation>
+  <Generation>
+    <AverageFitness>14.628</AverageFitness>
+    <TotalFitness>3657.0</TotalFitness>
+    <BestFitness>343.0</BestFitness>
+  </Generation>
+  <Generation>
+    <AverageFitness>199.94</AverageFitness>
+    <TotalFitness>49985.0</TotalFitness>
+    <BestFitness>1728.0</BestFitness>
+  </Generation>
+  <Generation>
+    <AverageFitness>288.256</AverageFitness>
+    <TotalFitness>72064.0</TotalFitness>
+    <BestFitness>1728.0</BestFitness>
+  </Generation>
+  <Generation>
+    <AverageFitness>289.536</AverageFitness>
+    <TotalFitness>72384.0</TotalFitness>
+    <BestFitness>1728.0</BestFitness>
+  </Generation>
+</Training_Data>
