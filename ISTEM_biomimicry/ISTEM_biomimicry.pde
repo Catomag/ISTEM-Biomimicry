@@ -58,7 +58,7 @@ void setup() {
 void reset() {
   _xml = new XML("Training_Data");
   File[] files = listFiles("/Data/");
-  //randomSeed(1);
+  randomSeed(1);
   fileIndex = files.length;
 
   pop = new Population(500);
@@ -89,9 +89,9 @@ void draw() {
         pop.update(8);
       }
 
-      if(pop.generation > 40) {
+      /*if(pop.generation > 40) {
         reset();
-      }
+      }*/
 
     break;
   }
