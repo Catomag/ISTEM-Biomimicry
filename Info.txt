@@ -1,0 +1,3 @@
+Sup, you need "Processing" to open the .pde files, its free and awesome.
+
+Download for processing: processing.org
