@@ -223,7 +223,7 @@ class Car implements Comparable<Car> {
 
 
   void calcFitness() {
-    fitness = rewardNumb*rewardNumb*rewardNumb;
+    fitness = rewardNumb*rewardNumb*rewardNumb*rewardNumb;
   }
 
 

@@ -22,15 +22,25 @@ class NumberField {
     this.pos = new PVector(pos.x, pos.y);
     this.w = w*_scale;
 
-    up = new Button(new PVector(pos.x+w, pos.y), w, w/2);
+    up = new Button(new PVector(pos.x+w, pos.y), w/2, w/2);
+
+    up.normal = color(random(50,255), random(50,255), random(50,255));
+    up.highlighted = color(random(25,200), random(25,200), random(25,200));
+    up.pressedColor = color(random(10,150), random(10,150), random(10,150));
+
     up.outline = false;
     up.cool = 120;
-    up.text = "+" + addAmount;
+    up.text = "▲";
 
-    down = new Button(new PVector(pos.x+w, pos.y+(w/2)), w, w/2);
+    down = new Button(new PVector(pos.x+w, pos.y+(w/2)), w/2, w/2);
+
+    down.normal = color(random(50,255), random(50,255), random(50,255));
+    down.highlighted = color(random(25,200), random(25,200), random(25,200));
+    down.pressedColor = color(random(10,150), random(10,150), random(10,150));
+
     down.outline = false;
     down.cool = 120;
-    down.text = "-" + addAmount;
+    down.text = "▼";
   }
 
 
@@ -39,7 +49,7 @@ class NumberField {
 
   void display() {
     noStroke();
-    fill(255);
+    fill(230);
     rect(pos.x, pos.y, w, w);
 
     fill(0);

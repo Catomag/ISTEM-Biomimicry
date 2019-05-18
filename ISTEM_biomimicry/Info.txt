@@ -1,3 +1,7 @@
 Sup, you need "Processing" to open the .pde files, its free and awesome.
 
 Download for processing: processing.org
+
+As soon as you launch the program, a file-selection screen should appear, simply navigate to the maps folder in the source code and pick a map.
+
+You can press 'o' to open any new map at any time
