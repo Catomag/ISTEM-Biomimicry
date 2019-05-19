@@ -129,7 +129,7 @@ void draw() {
       }
 
       else {
-        pop.update(12);
+        pop.update(7);
       }
 
       /*if(pop.generation > 40) {
@@ -189,6 +189,10 @@ void displayMenu() {
 
   prevButton.display();
   prevButton.update();
+
+  if(!sexualReproductionField.value) {
+    sexualDimorphismField.value = false;
+  }
 
   if(prevButton.pressed || nextButton.pressed) {
 
